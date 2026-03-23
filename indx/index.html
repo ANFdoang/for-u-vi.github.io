@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For U Girl</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS styles will be included here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        
+        <header class="hero" id="i-just-want-to-say-something">
+            <div class="hero-content">
+                <h1 class="main-title" id="main-title">I Just Want To Say Something</h1>
+                <p class="subtitle" id="subtitle"><strong>Notes:</strong></p>
+                <p class="subtitle" id="subtitle">1. sorry in case you already have boyfriend or something like that, because I don't know it and don't be mad.</p>
+                <p class="subtitle" id="subtitle">2. if you ask me how do i get the image of you, I just took it from your media social, yes i was stalking you but not in a bad way✌️.</p>
+                <p class="subtitle" id="subtitle">3. don't mind this if you didn't like it and pls don't be mad at me, because I don't wanna lose the mlbb account, aight?👌.</p>
+                <p class="subtitle" id="subtitle">4. And I don't mean to be rude about why I send this🙏.</p> 
+                <div class="date-time">
+                    <i class="fas fa-calendar-heart"></i>
+                    <span id="currentDate"></span>
+                </div>
+                <div class="music-wrapper">
+                    <button id="music-toggle" class="music-btn" aria-expanded="false" aria-label="Music options"><i class="fas fa-music"></i></button>
+                    <div class="music-title">
+                        <p>Music Option</p>
+                    </div>
+                    <div id="music-panel" class="music-panel" aria-hidden="true">
+                        <div class="control-item">
+                            <button id="music-play-btn" class="music-btn" aria-label="Play"><i class="fas fa-play"></i></button>
+                            <span class="btn-label">Play</span>
+                        </div>
+                        <div class="control-item">
+                            <button id="music-pause-btn" class="music-btn" aria-label="Pause"><i class="fas fa-pause"></i></button>
+                            <span class="btn-label">Pause</span>
+                        </div>
+                        <div class="control-item volume-item">
+                            <input id="music-volume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Volume" />
+                            <span id="volume-label" class="volume-label">50%</span>
+                        </div>
+                        <div class="control-item">
+                            <button id="music-mute-btn" class="music-btn" aria-label="Mute"><i class="fas fa-volume-up"></i></button>
+                            <span class="btn-label">Mute</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <audio id="background-music" loop>
+            <source src="music/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <main class="main-content">
+            <section class="love-letter" id="a-word-from-my-deepest-heart">
+                <div class="letter-container">
+                    <h2 class="letter-title" id="love-letter-title">A Word From My Deppest Heart</h2>
+                    <div class="letter-content" id="love-letter-content">
+                        <p>I've come to see you not simply as a girlfriend, but as a true and cherished friend—someone who means a great deal to me.</p>
+                        <p>Although our conversations began online, they have always felt genuine and warm.</p>
+                        <p>Please forgive me if I've ever caused you or your friends any inconvenience.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="memories" id="a-beautiful-girl">
+                <h2 class="section-title" id="memories-title">A Beautiful Girl</h2>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide"><img src="image/image-1.png" alt="Image 1"></div>
+                        <div class="slide"><img src="image/image-2.png" alt="Image 2"></div>
+                        <div class="slide"><img src="image/image-3.jpeg" alt="Image 3"></div>
+                        <div class="slide"><video src="video/vid-1.mp4" alt="Video 1" autoplay loop muted></video></div>
+                        <div class="slide"><video src="video/vid-2.mp4" alt="Video 2" autoplay loop muted></video></div>
+                        <div class="slide"><video src="video/vid-5.mp4" alt="Video 5" autoplay loop muted></video></div>
+                        <div class="slide"><video src="video/vid-6.mp4" alt="Video 6" autoplay loop muted></video></div>
+                    </div>
+                    <button class="slider-btn prev-btn">&lt;</button>
+                    <button class="slider-btn next-btn">&gt;</button>
+                </div>
+            </section>
+
+            <section class="love-quotes" id="type-shii">
+                <h2 class="section-title" id="quotes-title">Type Shii</h2>
+                <div class="quotes-container" id="quotes-container">
+                    <div class="quote-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="quote">"When i see your face, I think  you're antagonis banget (antara gorgeous dan manis)."</p>
+                        <span class="quote-author">- Unknown</span>
+                    </div>
+                    <div class="quote-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="quote">"Are you an autumn?, because iam fallin for you."</p>
+                        <span class="quote-author">- Unknown</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> for you.</p>
+                <p>I made this not for a bad things, just pure of what i want to say.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
